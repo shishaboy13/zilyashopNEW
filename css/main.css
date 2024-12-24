@@ -143,6 +143,16 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
+.btn-margin {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn-margin-large {
+    margin-top: 25px;
+    display: inline-block;
+}
+
 .btn:hover {
     background-color: #004d40;
 }
