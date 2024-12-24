@@ -211,3 +211,23 @@ h2 {
     display: block; 
     max-width: 1000px; 
 }
+
+.support-icon {
+    width: 160px;
+    height: auto;
+    transition: all 0.3s ease; 
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+    .support-icon {
+        width: 120px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .support-icon {
+        width: 80px; 
+    }
+}
+
