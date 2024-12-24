@@ -213,19 +213,21 @@ h2 {
 }
 
 .support-icon {
+    display: flex;
     width: 160px;
     height: auto;
     transition: all 0.3s ease; 
 }
 
-/* Адаптивные стили */
 @media (max-width: 768px) {
     .support-icon {
+        display: flex;
         width: 120px; 
     }
 }
 
 @media (max-width: 480px) {
+    display: flex;
     .support-icon {
         width: 80px; 
     }
